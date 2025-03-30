@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/hadger/programfile/petsc/include",
+                "/home/hadger/programfile/petsc/arch-linux-c-debug/lib",
+                "/home/hadger/programfile/petsc/arch-linux-c-debug/include",
+                "/usr/lib/x86_64-linux-gnu/openmpi/include",
+                "/usr/include/vtk-9.1"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
