@@ -84,9 +84,9 @@ def vtk_to_smooth_stl(input_vtk_file, output_stl_file, iso_value, smooth_iterati
     
     print(f"平滑后的等值面 {iso_value} 已保存到 {output_stl_file} 中。")
 
-input_vtk = "Input.vtk" 
+input_vtk = "Loop_100.vtk" 
 output_stl = "Output.stl" 
 iso_value = 0.9
-smooth_iterations = 0
+smooth_iterations = 20
 
 vtk_to_smooth_stl(input_vtk, output_stl, iso_value, smooth_iterations)
